@@ -1,0 +1,214 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #760404; 
+    color: white;
+    width: 100%;
+    height: 60px; 
+}
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    height: 80%; 
+}
+
+nav li {
+    padding: 0 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #000000; 
+}
+
+footer {
+    background-color: #760404;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    width: 200px;
+    height: 200px
+   
+}
+.center{
+    text-align: center
+}
+.logo-container {
+    position: relative;
+    top: -30;
+    left: 50%;
+    transform: translateX(-5%);
+    z-index: 10;  
+}
+.logo-container img {
+    height: 150px; 
+    width: auto; 
+    border-radius: 35%;
+}
+.main-banner {
+    background-image: url('images/comida-francesa.jpg-2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#receitas {
+    background-color: #f8f8f8; 
+    text-align: center; 
+    padding: 20px 0;
+}
+
+.receitas-container h2 {
+    font-size: 36px; 
+    color: #333; 
+    font-weight: bold; 
+    margin: 1;
+    padding: 10px; 
+    border-bottom: 10px solid #d0a85c; 
+}
+.receitas-container h2 {
+    transition: transform 0.5s, color 0.5s;
+}
+
+.receitas-container h2:hover {
+    transform: scale(1.1); 
+    color: #d0a85c; 
+}
+
+.main-banner {
+    margin-bottom: 0; 
+}
+
+#receitas {
+    margin-top: -50px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.receitas-container {
+    padding: 0; 
+}
+html, body {
+    overflow-x: hidden; 
+    overflow-y: auto;    
+}
+#receitas {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.receitas-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.receita-item {
+    margin: 20px 0;
+}
+
+.imagem-receita {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.descricao {
+    font-size: 16px; 
+    color: #333; 
+    margin-top: 10px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.imagem-receita {
+    animation: fadeIn 2s ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;  
+}
+nav a {
+    position: relative;
+    color: white;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #d0a85c;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #d0a85c;
+}
+
+nav a:hover::after {
+    visibility: visible;
+    width: 100%;
+}
+.main-banner {
+    background-attachment: fixed;
+}
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.card {
+    transition: transform 0.3s;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
